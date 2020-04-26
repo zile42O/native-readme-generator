@@ -1,0 +1,28 @@
+{
+  "name": "readme-gen",
+  "version": "1.1.0",
+  "description": "Simple program gettin from source code functions and export to readme file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "index": "index"
+  },
+  "pkg": {
+    "scripts": [
+      "lib/**/*"
+    ],
+    "targets": [
+      "node12"
+    ]
+  },
+  "author": "zile42O",
+  "bin": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "index.js": "0.0.3",
+    "node-compile": "^1.2.0"
+  }
+}
